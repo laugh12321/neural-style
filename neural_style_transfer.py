@@ -10,7 +10,7 @@ from PIL import Image, ImageFont, ImageDraw, ImageOps, ImageEnhance, ImageFilter
 
 
 # 定义初始变量
-parser = argparse.ArgumentParser(description='基于 Keras 的图像风格迁移)
+parser = argparse.ArgumentParser(description='基于 Keras 的图像风格迁移')
 parser.add_argument('style_reference_image_path', metavar='ref', nargs='+', type=str,
                     help='目标风格图片的位置.')
 parser.add_argument('target_image_path', , metavar='base', type=str,
