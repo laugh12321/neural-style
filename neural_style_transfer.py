@@ -13,12 +13,10 @@ from PIL import Image, ImageFont, ImageDraw, ImageOps, ImageEnhance, ImageFilter
 parser = argparse.ArgumentParser(description='基于 Keras 的图像风格迁移')
 parser.add_argument('style_reference_image_path', metavar='ref', nargs='+', type=str,
                     help='目标风格图片的位置.')
-parser.add_argument('target_image_path', , metavar='base', type=str,
+parser.add_argument('target_image_path', metavar='base', type=str,
                     help='基准图片的位置.')
 parser.add_argument('--iterations', dest='iterations', default=20, type=int,
-                    help='迭代次数')				
-#parser.add_argument("--image_size", dest="img_size", default=400, type=int,
-                    help='生成图像的尺寸')
+                    help='迭代次数')	
 
 # 获取参数
 args = parser.parse_args()
