@@ -20,7 +20,3 @@ Results after 10  iterations :
 
 ![](https://laugh12321-1258080753.cos.ap-chengdu.myqcloud.com/laugh's%20blog/images/Neural-Style-Transfer/images/outputs/VanGogh_town.png)
 
-
-
-<b>Reference</b> - [titu1994/Neural-Style-Transfer](https://github.com/titu1994/Neural-Style-Transfer)
-
