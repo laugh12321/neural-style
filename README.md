@@ -1,14 +1,12 @@
 # Neural Style Transfer
 
-Implementation of Neural Style Transfer from the paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576) in Keras 2.0+
+基于 Keras2.0+ 实现神经风格转移 （from the paper [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576)）
 
 ## Colaboratory Support
 
-[This codebase can now be run directly from colaboratory using the following link](https://colab.research.google.com/github/laugh12321/neural-style/blob/master/NeuralStyleTransfer.ipynb), or by opening `NeuralStyleTransfer.ipynb`and visiting the Colab link.
+你可以[点此链接](https://colab.research.google.com/github/laugh12321/neural-style/blob/master/NeuralStyleTransfer.ipynb)直接从Colaboratory运行此代码,或者打开`NeuralStyleTransfer.ipynb`并访问Colab链接。
 
-Colab link supports almost all of the additional arguments, except of the masking ones. They will probably be added at a later date.
-
-**NOTE :** Make sure you use a GPU in Colab or else the notebook will fail. To change Runtimes : `Runtime -> Change Runtime type ->`. Here select Python 3 and GPU as the hardware accelerator.
+**注意:** 确保在Colab中使用GPU，否则将会很慢。更改方式：`修改 -> 笔记本设置 ->`。这里选择Python 3和GPU作为硬件加速器。
 
 ## Examples
 
@@ -16,7 +14,7 @@ Colab link supports almost all of the additional arguments, except of the maskin
 
 ![](https://laugh12321-1258080753.cos.ap-chengdu.myqcloud.com/laugh's%20blog/images/Neural-Style-Transfer/images/inputs/style/VanGogh.jpg)
 
-Results after 10  iterations :
+迭代 10 次后的结果 :
 
 ![](https://laugh12321-1258080753.cos.ap-chengdu.myqcloud.com/laugh's%20blog/images/Neural-Style-Transfer/images/outputs/VanGogh_town.png)
 
