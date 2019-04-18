@@ -10,11 +10,11 @@
 
 ## Examples
 
-![](https://laugh12321-1258080753.cos.ap-chengdu.myqcloud.com/laugh's%20blog/images/Neural-Style-Transfer/images/inputs/concent/town.jpg)
-
-![](https://laugh12321-1258080753.cos.ap-chengdu.myqcloud.com/laugh's%20blog/images/Neural-Style-Transfer/images/inputs/style/VanGogh.jpg)
+<table><tr> 
+  <td><img src=https://laugh12321-1258080753.cos.ap-chengdu.myqcloud.com/laugh's%20blog/images/Neural-Style-Transfer/images/inputs/concent/town.jpg height="320" width="495" border=0></td> 
+  <td><img src=https://laugh12321-1258080753.cos.ap-chengdu.myqcloud.com/laugh's%20blog/images/Neural-Style-Transfer/images/inputs/style/VanGogh.jpg height="320" width="495" border=0></td> 
+</tr></table>
 
 迭代 10 次后的结果 :
 
-![](https://laugh12321-1258080753.cos.ap-chengdu.myqcloud.com/laugh's%20blog/images/Neural-Style-Transfer/images/outputs/VanGogh_town.png)
-
+<div align="center"><img src=https://laugh12321-1258080753.cos.ap-chengdu.myqcloud.com/laugh's%20blog/images/Neural-Style-Transfer/images/outputs/VanGogh_town.png height="400" width="618" /></div>
